@@ -6,12 +6,12 @@ namespace LaminasTest\Session\SaveHandler\DbTableGateway;
 
 use Laminas\Db\Adapter\Adapter;
 use Laminas\Session\SaveHandler\DbTableGateway;
-use LaminasTest\Session\SaveHandler\AbstractDbTableGatewayTest;
+use LaminasTest\Session\SaveHandler\AbstractDbTableGateway;
 
 use function extension_loaded;
 use function sprintf;
 
-class PdoSqliteAdapterTest extends AbstractDbTableGatewayTest
+class PdoSqliteAdapter extends AbstractDbTableGateway
 {
     protected function getAdapter(): Adapter
     {

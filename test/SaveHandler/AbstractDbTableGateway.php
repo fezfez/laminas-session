@@ -22,7 +22,7 @@ use function var_export;
  *
  * @covers \Laminas\Session\SaveHandler\DbTableGateway
  */
-abstract class AbstractDbTableGatewayTest extends TestCase
+abstract class AbstractDbTableGateway extends TestCase
 {
     /** @var Adapter */
     protected $adapter;
