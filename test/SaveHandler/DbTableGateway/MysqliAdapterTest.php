@@ -6,13 +6,13 @@ namespace LaminasTest\Session\SaveHandler\DbTableGateway;
 
 use Laminas\Db\Adapter\Adapter;
 use Laminas\Session\SaveHandler\DbTableGateway;
-use LaminasTest\Session\SaveHandler\AbstractDbTableGateway;
+use LaminasTest\Session\SaveHandler\AbstractDbTableGatewayTestCase;
 
 use function extension_loaded;
 use function getenv;
 use function sprintf;
 
-class MysqliAdapter extends AbstractDbTableGateway
+class MysqliAdapterTest extends AbstractDbTableGatewayTestCase
 {
     protected function getAdapter(): Adapter
     {
