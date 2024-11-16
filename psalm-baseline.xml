@@ -587,12 +587,6 @@
     <RedundantCastGivenDocblockType>
       <code><![CDATA[(string) $data]]></code>
     </RedundantCastGivenDocblockType>
-    <UndefinedClass>
-      <code><![CDATA[Binary]]></code>
-      <code><![CDATA[Binary]]></code>
-      <code><![CDATA[UTCDateTime]]></code>
-      <code><![CDATA[UTCDateTime]]></code>
-    </UndefinedClass>
   </file>
   <file src="src/SaveHandler/MongoDBOptions.php">
     <DocblockTypeContradiction>
@@ -1433,16 +1427,10 @@
       <code><![CDATA[456]]></code>
       <code><![CDATA[456]]></code>
     </InvalidArgument>
-    <MixedArgument>
-      <code><![CDATA[RuntimeException::class]]></code>
-    </MixedArgument>
     <RedundantConditionGivenDocblockType>
       <code><![CDATA[assertTrue]]></code>
       <code><![CDATA[is_string($data)]]></code>
     </RedundantConditionGivenDocblockType>
-    <UndefinedClass>
-      <code><![CDATA[RuntimeException]]></code>
-    </UndefinedClass>
   </file>
   <file src="test/Service/ContainerAbstractServiceFactoryTest.php">
     <MixedAssignment>
